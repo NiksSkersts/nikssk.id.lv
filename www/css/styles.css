@@ -1,0 +1,48 @@
+html{
+    background-color: black;
+    color: aliceblue;
+    font-size: xx-large;
+    
+}
+.hide_overflow{
+    overflow: hidden;
+}
+body{
+    margin: auto;
+}
+footer{
+  text-align: center;
+}
+article{
+    display: block;
+    margin: auto;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    text-transform: uppercase;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+}
+form{
+    display: inline-block;
+}
+table, th, td {
+  border: 1px solid white;
+  color: aliceblue;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
