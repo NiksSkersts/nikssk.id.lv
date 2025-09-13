@@ -1,4 +1,4 @@
-baseurl = "http://192.168.103.4:1313/"
+baseurl = "https://nikssk.id.lv"
 title = "nikssk.id.lv"
 theme = "hugo-theme-console"
 languageCode = "en-us"
