@@ -1,0 +1,35 @@
+baseurl = "http://192.168.103.4:1313/"
+title = "nikssk.id.lv"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+environment = "production"
+copyright = "Copyright (c) 2025, all rights reserved."
+canonifyurls = true
+enableRobotsTXT = true
+
+[author]
+  name = "Niks Skersts"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = false
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "cv/"
+  url = "cv.pdf"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  #[[params.navlinks]]
+  #name = "gallery/"
+  #url = "https://gallery.nikssk.id.lv/"
+
+[params.meta]
+  keywords = "blog, tech, Niks Skersts, IPv6, Mikrotik"
+  description = ""

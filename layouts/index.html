@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<h1>Content</h1>
+
+<p>
+    Welcome to whatever this is.
+    You can learn more about me by reading <a href="about/index.html">here</a> or by reading my <a href="/cv.pdf">CV</a>.
+    If you have questions, recommendations or you wish to yell at me in text format: here's my <a href="mailto:9BzuGf@nikssk.id.lv">email address</a>.
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+
+{{ end }}
