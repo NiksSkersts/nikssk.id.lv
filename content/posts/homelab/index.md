@@ -3,6 +3,8 @@ title = "Homelab"
 date = "2025-10-26"
 +++
 
+Here's my current Homelab layout and documentation.
+
 <!--more-->
 
 My concerns regarding publishing my homelab documentation:
@@ -19,8 +21,6 @@ I just finished uni. There's no money to be made here. Dirt poor.
 All my homelab equipment is second-hand or gifted by my IT buddies.
 Off ye go, ye naughty person!
 ```
-
-Jokes aside, here's my current Homelab layout.
 
 ## Todo
 
