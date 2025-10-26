@@ -14,14 +14,6 @@ My concerns regarding publishing my homelab documentation:
 
 My documentation will be written in Question => Answer format. It seems that this is the best way for my brain to parse information.
 
-```
-!!!
-For any current or future threat actor thinking about having a go at my homelab.
-I just finished uni. There's no money to be made here. Dirt poor.
-All my homelab equipment is second-hand or gifted by my IT buddies.
-Off ye go, ye naughty person!
-```
-
 ## Todo
 
 !TODO:
