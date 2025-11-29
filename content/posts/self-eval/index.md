@@ -5,7 +5,7 @@ date = "2025-11-08"
 
 A funny side project/entertainment that I found on the Internet.
 
-Here's original [pdf](/system-administrator-leveling-matrix.pdf)
+Here's original [pdf](/self-eval/system-administrator-leveling-matrix.pdf)
 
 <!--more-->
 
