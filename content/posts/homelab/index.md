@@ -19,7 +19,6 @@ My documentation will be written in Question => Answer format. It seems that thi
 !TODO:
 - [ ] I would like OSPF capable router on tan.nikssk.id.lv for dynamic routing.
 - [ ] Create a diagram for AD sync.
-- [ ] Simplify GIT workflow.
 - [ ] Make public:
   - [ ] Ansible code (without vars),
   - [ ] Scripts and anything like that,
@@ -67,19 +66,9 @@ secrets file = /path/to/rsyncd.secret
 ### Joining client to AD
 ```
 apt install realmd sssd oddjob oddjob-mkhomedir adcli samba-common packagekit sssd-tools
-apt install chrony ntpsec-ntpdate
-ntpdate -bu ad1.nikssk.id.lv
 realm join --user=administrator ad1.nikssk.id.lv
-rm -f /var/lib/sss/db/cache_nikssk.id.lv.ldb
 pam-auth-update # Tick "create home folder on login"
 ```
-
-
-## Workflow:
-
-![Repositories](/repositories.drawio.svg)
-
-A lot of it really boils down to time. I have been keeping myself busy enough not to have such a pet named "Time". Eventually this workflow will be improved or changed - currently it's good enough.
 
 
 ## Q&A
@@ -97,7 +86,7 @@ A: I used to keep PSQL separate, but recently I have went for just keeping datab
 ### DNS, DHCP, and Network in general
 Q: Why Unbound in the middle for DNS queries? \
 A: For an easy way to fight modern data gathering measures of the Internet. ^_^
-Samba4 DNS only resolves names withing the domain and the rest are forwarded.
+Samba4 DNS only resolves names within the domain and the rest are forwarded.
 
 Q: What provides DHCP? \
 A: SRV/TAN network uses static networking as I deploy VMs using Ansible with these values set in variables. \
