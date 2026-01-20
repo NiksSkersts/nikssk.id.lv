@@ -39,11 +39,10 @@ Services:
 | --- | ---------------------- | ------------ |
 | 1.  | MyFitnessPal           | €54.99/year  |
 | 2.  | Youtube Premium family | €19.99/month |
-| 3.  | Grindr                 | €14.99/month |
-| 4.  | Netflix                | €9.99/month  |
-| 5.  | Netcup                 | €6.13/month  |
-| 6.  | AI thingy?             | planned      |
-| 7.  | Github                 |              |
+| 3.  | Netflix                | €9.99/month  |
+| 4.  | Netcup                 | €6.13/month  |
+| 5.  | AI thingy?             | planned      |
+| 6.  | Github                 |              |
 
 ---
 
