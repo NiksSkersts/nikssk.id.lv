@@ -17,13 +17,13 @@ My documentation will be written in Question => Answer format. It seems that thi
 ## Todo
 
 !TODO:
-- [ ] I would like OSPF capable router on tan.nikssk.id.lv for dynamic routing. I low on resources on that VPS.
+- [ ] I would like OSPF capable router on tan.nikssk.id.lv for dynamic routing.
 - [ ] Create a diagram for AD sync.
 - [ ] Simplify GIT workflow.
 - [ ] Make public:
   - [ ] Ansible code (without vars),
   - [ ] Scripts and anything like that,
-  - [ ] Redacted documentation.
+  - [x] Redacted documentation.
 - [ ] Find a way to securely store variables.
 - [ ] Test Ansible Automation Platform instead of SemaphoreUI.
 - [ ] Add sources.
