@@ -1,6 +1,6 @@
 +++
 title = "Homelab"
-date = "2025-10-26"
+date = "2026-02-16"
 +++
 
 Here's my current Homelab layout and documentation.

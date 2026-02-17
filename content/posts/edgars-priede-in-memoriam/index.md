@@ -1,5 +1,5 @@
 +++
-title = "In memoriam"
+title = "In memoriam: Edgars Priede (22.01.2001 - 01.10.2023)"
 date = "2026-02-14"
 +++
 
