@@ -1,6 +1,7 @@
 +++
-title = "Homelab"
+title = "Monitoring"
 date = "2026-02-17"
+draft = true
 +++
 
 Because "Homelab" != "Unreliable".
