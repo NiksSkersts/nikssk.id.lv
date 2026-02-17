@@ -1,11 +1,12 @@
 +++
 title = "Services and donations"
-date = "2025-11-29"
+date = "2026-02-17"
 +++
 
 If you are looking for a good cause to donate to, here's a list that I use, support or pay for:
 
 Self-Hosted, Open Source, Open Source supporting communities:
+
 | Nr. | Service                                                                           | Cost           |
 | --- | --------------------------------------------------------------------------------- | -------------- |
 | 1.  | [Bitwarden](https://bitwarden.eu/)                                                | $40.00/year    |
@@ -31,19 +32,19 @@ Self-Hosted, Open Source, Open Source supporting communities:
 | 21. | [Prism Launcher](https://prismlauncher.org/)                                      |                |
 | 22. | [RIPE Labs](https://labs.ripe.net/category/podcasts/)                             |                |
 | 23. | [Stirling PDF](https://www.stirling.com/)                                         |                |
+| 24. | [rule11.tech](https://rule11.tech/)                                               |                |
 
 ---
 
 Services:
+
 | Nr. | Service                | Cost         |
 | --- | ---------------------- | ------------ |
 | 1.  | MyFitnessPal           | €54.99/year  |
 | 2.  | Youtube Premium family | €19.99/month |
 | 3.  | Netflix                | €9.99/month  |
 | 4.  | Netcup                 | €6.13/month  |
-| 5.  | AI thingy?             | planned      |
+| 5.  | AI thingy?             |              |
 | 6.  | Github                 |              |
 
 ---
-
-
