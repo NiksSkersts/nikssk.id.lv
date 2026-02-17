@@ -1,6 +1,6 @@
 +++
 title = "Self Evaluation"
-date = "2026-02-17"
+date = "2026-01-01"
 +++
 
 A funny side project/entertainment that I found on the Internet.

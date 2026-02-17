@@ -35,8 +35,8 @@ enableRobotsTXT = true
   url = "services/"
 
   [[params.navlinks]]
-  name = "in-memoriam/"
-  url = "in-memoriam/"
+  name = "notes/"
+  url = "notes/"
 
 [params.meta]
   keywords = "blog, tech, Niks Skersts, IPv6, Mikrotik"

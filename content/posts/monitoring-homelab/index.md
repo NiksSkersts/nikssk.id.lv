@@ -1,6 +1,6 @@
 +++
 title = "Homelab"
-date = "2026-01-18"
+date = "2026-02-17"
 +++
 
 Because "Homelab" != "Unreliable".
