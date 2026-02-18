@@ -1,6 +1,7 @@
 +++
 title = "In memoriam: Edgars Priede"
 date = "2026-02-14"
+draft = true
 +++
 
 <!--more-->
@@ -18,5 +19,6 @@ You moved to Riga, and we stayed friends online. One day you asked me out for a 
 Hey, Edgar, you said you were fine when you were in the hospital. I wish you had told me the truth. The worst crossed my mind, but I dismissed it. I only found out that you were gone when I checked Facebook after you stopped replying to messages.
 
 I wish I had been more straightforward. I wish I had spent more time with you. You are one of the few people I would love to travel back in time to see again. I wish I had a picture of you - I always took your selfies for granted so I never saved them.
+
 
 If I remember correctly, you were not good at English, haha. So you might not even understand this if you ever got to read it. Hey, Edgar, Es ceru tevi satikt nākamajā dzīvē.
