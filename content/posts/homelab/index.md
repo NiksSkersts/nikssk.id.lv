@@ -10,22 +10,8 @@ Here's my current Homelab layout and documentation.
 My concerns regarding publishing my homelab documentation:
 1. I am helping threat actors with free information about my homelab - security concerns.
 2. I would make others think that I am like Scrooge McDuck: swimming in money.
-3. I would expose bad design decisions / questionable IT practices to my current or future employer.
+3. I would expose bad design decisions / questionable IT practices to my current or future employers.
 
-My documentation will be written in Question => Answer format. It seems that this is the best way for my brain to parse information.
-
-## Todo
-
-!TODO:
-- [ ] I would like OSPF capable router on tan.nikssk.id.lv for dynamic routing.
-- [ ] Create a diagram for AD sync.
-- [ ] Make public:
-  - [ ] Ansible code (without vars),
-  - [ ] Scripts and anything like that,
-  - [x] Redacted documentation.
-- [ ] Find a way to securely store variables.
-- [ ] Test Ansible Automation Platform instead of SemaphoreUI.
-- [ ] Add sources.
 
 ## Homelab layout
 
@@ -33,43 +19,6 @@ My documentation will be written in Question => Answer format. It seems that thi
 2. tan.nikssk.id.lv is virtual private server hosted by [Netcup](https://www.netcup.com/de) in Germany with Cloudflare providing proxy.
 
 ![Homelab](/homelab.drawio.svg)
-
-## AD structure
-
-![Homelab](/ad.drawio.svg)
-
-```
-DNS query flow
-
-CLIENTS => Samba4 DNS => Unbound DNS => Public DNS over TLS.
-
-```
-
-Rsync setup.
-
-```
-! cat /etc/rsyncd.conf
-[SysVol]
-path = /var/lib/samba/sysvol/
-comment = Samba Sysvol Share
-uid = x
-gid = x
-read only = yes
-auth users = sysvol-replication
-secrets file = /path/to/rsyncd.secret
-
-! crontab
-*/30 * * * * rsync -XAavz --delete-after --password-file=/path/to/rsyncd.secret rsync://sysvol-replication@ip.ip.ip.ip/SysVol/ /var/lib/samba/sysvol/
-
-```
-
-### Joining client to AD
-```
-apt install realmd sssd oddjob oddjob-mkhomedir adcli samba-common packagekit sssd-tools
-realm join --user=administrator ad1.nikssk.id.lv
-pam-auth-update # Tick "create home folder on login"
-```
-
 
 ## Q&A
 
