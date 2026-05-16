@@ -28,15 +28,11 @@ enableRobotsTXT = true
   
   [[params.navlinks]]
   name = "gallery/"
-  url = "https://gallery.nikssk.id.lv/"
+  url = "https://share.nikssk.id.lv/"
 
   [[params.navlinks]]
   name = "services/"
   url = "services/"
-
-  [[params.navlinks]]
-  name = "notes/"
-  url = "notes/"
 
 [params.meta]
   keywords = "blog, tech, Niks Skersts, IPv6, Mikrotik"
