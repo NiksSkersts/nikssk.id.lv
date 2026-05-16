@@ -28,7 +28,7 @@ enableRobotsTXT = true
   
   [[params.navlinks]]
   name = "gallery/"
-  url = "https://share.nikssk.id.lv/"
+  url = "https://share.nikssk.id.lv/gallery/"
 
   [[params.navlinks]]
   name = "services/"
